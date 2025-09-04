@@ -4,8 +4,8 @@
 ## What's Included
 
 - `homeOfficeTestAssess.jmx` – The full JMeter test plan.
-- `PerformanceTestingAssessment.pdf` – My write-up explaining the approach, how I met the criteria, test types, results, and screenshots.
-- `data/users.csv` – CSV file with variables for script.
+- `PerformanceTestingAssessment.pdf` – My write up explaining the approach, how I met the criteria, test types, results, and screenshots.
+- `data/users.csv` – CSV file with variables for the JMeter script.
   
 
 ## What I Did
@@ -19,7 +19,7 @@
 
 ## Test Types Set Up
 
-- **Load Test**: 50 users – this is the only test I actually ran.
+- **Load Test**: 50 users (this is the only test I actually ran).
 - **Spike Test**: Spikes to 30 users every 10 minutes.
 - **Stress Test**: Gradual ramp-up from 10 to 140 users.
 - **Soak Test**: 10 users over 12 hours.
